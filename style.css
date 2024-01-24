@@ -1,0 +1,68 @@
+/*MAIN CSS START*/
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#counter{
+  height: 100vh;
+  background-color: gray;
+}
+#counter .container{
+  display: flex;
+  align-items: center;
+  height:100%;
+  justify-content: center;
+}
+#counter button, #counter input{
+  padding: 10px;
+  text-align: center;
+}
+#counter button{
+  cursor: pointer;
+}
+/*MAIN CSS END*/
+
+/* MOBILE NEV START*/
+
+#mobileNev{
+  height: 100vh;
+  background-color: red;
+  position: relative;
+}
+#mobileNev .btn{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  right: 23px;
+  top: 23px;
+  cursor: pointer;
+}
+#mobileNev .bar{
+  height: 100vh;
+  width: 0;
+  background-color: green;
+  transition: 0.5s;
+}
+#mobileNev .bar.active{
+  width: 400px;
+}
+/* MOBILE NEV END*/
+
+/* RANGE START*/
+#renge{
+  height: 100vh;
+  width: 100%;
+  background-color: gray;
+}
+#renge .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 248, 255);
+  height: 100vh;
+}
+/* RANGE END*/
